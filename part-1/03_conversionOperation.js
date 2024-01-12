@@ -38,7 +38,34 @@ let score = 33
 //"ayan"=>true
 
 
-let somenumber=33;
-let stringNumber=String(somenumber);
-console.log(typeof stringNumber);
-console.log(stringNumber);
+// let somenumber=33;
+// let stringNumber=String(somenumber);
+// console.log(typeof stringNumber);
+// console.log(stringNumber);
+
+
+let str1 ="AYAN"
+let str2=" khan"
+// console.log(str1+str2);
+
+// console.log(1+3);
+// console.log(1-2);
+// console.log(1*3);
+// console.log(1/3);
+// console.log(1%3);
+
+console.log(1+"2");
+console.log("2"-2);
+console.log("2"+3);
+console.log("2"+2+2);
+console.log(2+2+"2");
+
+console.log(+true);
+console.log(+"");
+
+let gameCounter=100
+gameCounter++
+console.log(gameCounter);
+
+
+
