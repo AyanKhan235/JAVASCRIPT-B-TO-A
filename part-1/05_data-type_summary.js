@@ -31,14 +31,14 @@ let myObj={
     age:22,
 
 }
-console.log(typeof myObj );
+// console.log(typeof myObj );
 
 console.log(typeof heros);
 
  const myFunction=function () {
     console.log("hello world");
 }
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
 // console.log(typeof myFunction);
 
 
@@ -46,3 +46,25 @@ console.log(typeof myFunction);
 // is it dynamicaly type lamgauge or staticaly type 
 //  it is dynamicaly type 
 // bcoz there no need to specify type of variale 
+
+//  this is  goes in  stack  its primitive 
+ let myYouTube="ayankhan#"
+ let amotherName=myYouTube
+ console.log(myYouTube);
+ console.log(amotherName);
+
+
+
+
+let userOne={
+    email:"user@gmail.com",
+    upi: "paybl@upi",
+} 
+ 
+let userTwo=userOne
+userTwo.email="ayan@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+ 
