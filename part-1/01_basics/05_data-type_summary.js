@@ -14,7 +14,7 @@ const anotherId=Symbol("123");
 
 // console.log(id===anotherId); 
 
-// const bigNumber=35356623536736354n
+const bigNumber=35356623536736354n
 // console.log(bigNumber);
 // console.log(typeof(bigNumber));
  
@@ -33,12 +33,12 @@ let myObj={
 }
 // console.log(typeof myObj );
 
-console.log(typeof heros);
+// console.log(typeof heros);
 
  const myFunction=function () {
     console.log("hello world");
 }
-// console.log(typeof myFunction);
+
 // console.log(typeof myFunction);
 
 
@@ -48,10 +48,10 @@ console.log(typeof heros);
 // bcoz there no need to specify type of variale 
 
 //  this is  goes in  stack  its primitive 
- let myYouTube="ayankhan#"
- let amotherName=myYouTube
- console.log(myYouTube);
- console.log(amotherName);
+//  let myYouTube="ayankhan#"
+//  let amotherName=myYouTube
+//  console.log(myYouTube);
+//  console.log(amotherName);
 
 
 

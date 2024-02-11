@@ -10,9 +10,9 @@ let score = 33
 // it can convert in number but value is NaN
 
 // score="33ab";
-// valueInNumber=Number(score);
+//  let valueInNumber=Number(score);
 // console.log(typeof score);
-// console.log(valueInNumber);
+// console.log( valueInNumber);
 
 // output is 
 // number
@@ -44,8 +44,8 @@ let score = 33
 // console.log(stringNumber);
 
 
-let str1 ="AYAN"
-let str2=" khan"
+// let str1 ="AYAN"
+// let str2=" khan"
 // console.log(str1+str2);
 
 // console.log(1+3);
@@ -54,18 +54,18 @@ let str2=" khan"
 // console.log(1/3);
 // console.log(1%3);
 
-console.log(1+"2");
-console.log("2"-2);
-console.log("2"+3);
-console.log("2"+2+2);
-console.log(2+2+"2");
+// console.log(1+"2");
+// console.log("2"-2);
+// console.log("2"+3);
+// console.log("2"+2+2);
+// console.log(2+2+"2");
 
 console.log(+true);
 console.log(+"");
 
-let gameCounter=100
-gameCounter++
-console.log(gameCounter);
+// let gameCounter=100
+// gameCounter++
+// console.log(gameCounter);
 
 
 
