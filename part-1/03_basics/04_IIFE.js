@@ -18,3 +18,7 @@
 ( (name)=>{
 console.log(`DB CONNECTED TWO ${name}`);
 })('ayan') 
+
+
+
+//multi iffe likhne ke liye semicolan compulsary hai

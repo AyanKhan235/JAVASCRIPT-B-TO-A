@@ -85,9 +85,15 @@ const users=[
 
 
 
-//  json 
-{
-    "name":"ayan",
-    "coursename":"js in hindi",
-    "price":"free"
-}
+//  json  api formate 
+// {
+//     "name":"ayan",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]

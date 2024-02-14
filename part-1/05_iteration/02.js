@@ -5,8 +5,8 @@ let index=1
 // }
 
 
-
-let score=1;
+ 
+let score=11;
 
 do{
 console.log(`The score is ${score}`);
