@@ -20,3 +20,7 @@ for (const key in arr) {
 
 console.log(arr[key]);  //'js', 'rb', 'cpp', 'mern'
 }
+
+
+
+// for in will not work on map 
