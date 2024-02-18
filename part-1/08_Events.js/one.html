@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <h2>Amazing imnages</h2>
+    <div>
+    <ul id="images">
+        <li><img id="coffee" width="200px" src="/00_photos/akcoffe.jpj.jpg" alt=""></li>
+        <li><img id="babu" width="200px" src="/00_photos/IMG_2420.jpg" alt="" ></li>
+        <li><img id="dj" width="200px" src="/00_photos/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg" alt=""></li>
+        <li><a style="color: aliceblue;" href="https:google.com" id="google"> Google</a></li>
+
+    </ul>
+</div>
+    
+</body>
+<script>
+//    document.getElementById('babu').onclick=function(){
+//     alert('clicked')
+//    }
+// attachEvent
+// jQuery on
+ 
+
+
+
+//type ,timeStamp , defaultPrevented , 
+// target , toElement, srcElement , currentTarget
+// clientX clientY screenX screenY
+// altKey ,shiftKey , ctrlKey, keyCode
+
+
+// addEventListener if false is 3rd value than even propogation is bubling niche se upr
+// addEventListener if true is 3rd value than even propogation is capturing  upr se niche
+
+
+// document.getElementById('babu').addEventListener('click', function(e){
+//     alert('clicked on babu images')
+//     console.log(e);
+
+    
+// }, false)// there is false default in the addEvent 
+
+// document.getElementById('images').addEventListener('click', function(e){
+//     console.log('click inside ul'); 
+// }, false)
+
+
+// document.getElementById('babu').addEventListener('click', function(e){
+//  console.log('click on babu images');
+//  e.stopPropagation(); // stop propogation will not run upper wala jab babu pic clicked false one chahie=ye it stop bubling
+// }, false)
+
+
+
+document.getElementById('google').addEventListener('click', function(e){
+    e.preventDefault(); // clicking but not go on link
+    e.stopPropagation();
+    // console.log("google clicked ");
+})
+
+
+
+// delet images by click 
+document.getElementById('images').addEventListener('click', function(e){
+    console.log(e.target.tagName);
+    // console.log(e.target.parentNode);
+
+    // by this full li will not delete
+    if(e.target.tagName==='IMG'){
+    const removeIt=e.target.parentNode;
+    removeIt.remove();
+    console.log(e.target.id);
+    }
+    
+     // both method for remove
+    // removeIt.parentNode.removeChild(removeIt);
+})
+
+</script>
+</html>

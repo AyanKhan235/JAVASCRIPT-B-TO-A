@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME EVENT</title>
+</head>
+<body>
+    <h2>Chai aur Javascript</h2>
+    <button id="start">start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+   const sayAyan=function(str){
+    console.log(str, Date.now());
+   }
+
+   let intervalEve;
+   document.getElementById('start').addEventListener('click', function(){
+   intervalEve= setInterval(sayAyan,1000,"ayan");
+   })
+   document.getElementById('stop').addEventListener('click' ,function(){
+    clearInterval(intervalEve);
+   })
+ 
+</script>
+</html>
