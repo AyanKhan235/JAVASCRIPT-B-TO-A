@@ -13,6 +13,8 @@ createUser.prototype.printMe=function(){
 // when we not use new and prototype has been created by us so it cannot access its only can access function property
 // user1.printMe()
 
+
+/// prototype is linked with newly created object
 // all will be access 
 const user1= new createUser("chai", 25)
 const user2= new createUser("tea", 200)

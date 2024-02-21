@@ -1,5 +1,6 @@
 # javascript oops
-
+# object literal
+collections of properties and method
 
 # parts of oops
 -constructor
