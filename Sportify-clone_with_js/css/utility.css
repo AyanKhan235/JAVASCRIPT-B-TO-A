@@ -35,3 +35,17 @@
 .p-1{
     padding: 10px;
 }
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thunb{
+    background-color: #333;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+    color: #222;
+}
+/* scrollbar-color:#333333; */
+::-webkit-scrollbar{
+    color: #333;
+}
