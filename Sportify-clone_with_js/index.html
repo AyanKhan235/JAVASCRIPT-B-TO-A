@@ -87,25 +87,17 @@
             <div class="Spotify-playlist" >
                 <h1>Spotify PlayList</h1>
                 <div class="cardContainer" >
-                    <div class="card" >
+                    <div data-folder="cs" class="card" >
                         <div class="play" >
-                            <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5 20V4L19 12L5 202" stroke="#141B34" stroke-width="1.5"
-                                    stroke-linejoin="round" />
-                            </svg>
+                            <img src="/img/play2.svg" alt="">
                         </div>
                         <img src="/songs_info/chill_(mood)/cover.jpg" alt="" >
                         <h3>Happy Hits!</h3>
                         <p>Hits To Boost Your Mood and feel happiness</p>
                     </div>
-                    <div class="card" >
+                    <div  data-folder="ncs" class="card" >
                         <div class="play" >
-                            <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5 20V4L19 12L5 202" stroke="#141B34" stroke-width="1.5"
-                                    stroke-linejoin="round" />
-                            </svg>
+                            <img src="/img/play2.svg" alt="">
                         </div>
                         <img src="/songs_info/chill_(mood)/cover.jpg" alt="" >
                         <h3>Happy Hits!</h3>
@@ -127,9 +119,18 @@
                     <img id="play" class="invert" src="/img/play.svg" alt="">
                     <img id="next" class="invert" src="/img/nextsong.svg" alt="">
                 </div>
-                <div class="songTime" >
+                <div class="timevol">
+                    <div class="songTime" >
 
+                    </div>
+                    <div class="volume" >
+                        <img width="24" class="invert flex" src="/img/volume.svg" alt="">
+                        <div class="range">
+                            <input type="range" name="volume">
+                        </div>
+                    </div>
                 </div>
+               
             </div>
             </div>
         </div>
